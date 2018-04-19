@@ -22,3 +22,5 @@ erl_crash.dump
 # Ignore package tarball (built via "mix hex.build").
 elixir_concurrent_cmd_sandbox-*.tar
 
+test_data/*
+!test_data/.*
